@@ -1,7 +1,7 @@
 import random
 from telebot import TeleBot, types
 
-TOKEN = '8589882261:AAGQvIs_vJMSQ_D8KOjwVkNC-piCA53gg3c'
+TOKEN = 'TOKEN'
 bot = TeleBot(TOKEN)
 
 ways = [
@@ -107,3 +107,4 @@ def start(message):
     bot.send_message(message.chat.id, choice_vibor, reply_markup=keyboard)  # додаємо клавіатуру
 
 bot.infinity_polling()
+
